@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+
+body {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background: #D7F5FF;
+}
+
+h1 {
+  color: #222;
+}
+
+#menu {
+  width: 80%;
+   padding: 20px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   border-radius: 8px;
+}
+
+#tabs_panel {
+   display: flex;
+   padding: 0;
+} 
+
+#tabs_panel .item {
+  display: flex;
+  width: 25%;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  cursor: pointer;
+  background: #1445A6;
+  flex-direction: column;
+  transition: 0.4s;
+}
+
+.item img {
+  width: 50px;
+  display: block;
+  margin-bottom: 25px;
+}
+
+.item a {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+.item.first {
+border-top-left-radius: 10px;
+border-top-right-radius: 0%;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 0%;
+}
+
+.item.last {
+  border-top-left-radius: 0%;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 0%;
+border-bottom-right-radius: 10px;
+}
+
+#tabs_panel li:hover {
+  background: #082B59;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+}
+
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+  nav ul li a {
+      color: #000;
+      text-decoration: none;
+}
+  nav ul li a:active {
+            color: #007BFF;
+        }

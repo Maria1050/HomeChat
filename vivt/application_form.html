@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeChat</title>
+    <link rel="stylesheet" href=./styles/application_form.css>
+</head>
+<body>
+    <div class="container">
+                <form action = "process_application.php" method="post">
+                    <div class="input-field">
+                        <div>
+                            <label for="userName">Имя</label>
+                            <input type="text" id="userName" class="input-field" required>
+                        </div>
+                        <div>
+                            <label for="email">Электронная почта</label>
+                            <input type="email" id="email" class="input-field" required>
+                        </div>
+                       <div>
+                            <label for="messageForm">Сообщение</label>
+                            <textarea id = "message" class="input-field" required></textarea>
+                        </div>
+                    <input class = "button" type="submit" value="Отправить заявку">
+                </form>
+        </div>
+    <script type="script.js"></script>
+</body>
+</html>

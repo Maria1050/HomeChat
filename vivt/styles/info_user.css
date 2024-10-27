@@ -1,0 +1,25 @@
+
+body{
+	font-family: sans-serif;
+	background: #D7F5FF;
+}
+.container {
+	margin: 50px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.profile {
+    margin: 50px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.info {
+    margin-top: 10px;
+}
+
+p {
+    font-size: 16px;
+}
+
